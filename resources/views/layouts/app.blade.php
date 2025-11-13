@@ -34,12 +34,12 @@ body {
 /* ===== COMPACT HEADER STYLES ===== */
 .header {
     background-color: #333333;
-    padding: 10px 0;
+    padding: 35px 0;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 7px 8px rgba(0, 0, 0, 0.1);
 }
 
 .header-content {
@@ -53,7 +53,7 @@ body {
 
 .logo {
     color: white;
-    font-size: 22px;
+    font-size: 27px;
     font-weight: bold;
     text-decoration: none;
     font-family: 'Russo One', sans-serif;
@@ -75,11 +75,11 @@ body {
     color: white;
     text-decoration: none;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 15px;
     transition: all 0.2s ease;
     font-family: 'Albert Sans', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.2px;
     white-space: nowrap;
     padding: 4px 0;
 }
@@ -93,17 +93,16 @@ body {
     gap: 10px;
     flex-shrink: 0;
 }
-
 .auth-btn {
     color: white;
     text-decoration: none;
-    padding: 6px 15px;
+    padding: 8px 16px;
     border: 1px solid white;
     border-radius: 4px;
     transition: all 0.2s ease;
     font-family: 'Albert Sans', sans-serif;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 17px;
     white-space: nowrap;
 }
 
